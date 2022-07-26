@@ -308,6 +308,7 @@ player.on("damage", () => {
     }
 });
 
+
   // End game on player destruction
 player.on("destroy", () => {
     add([
